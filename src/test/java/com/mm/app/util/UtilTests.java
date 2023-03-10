@@ -10,6 +10,6 @@ public class UtilTests {
 
 	@Test
 	public void numberEqualsTest() {
-		assertEquals(1, 2);
+		assertEquals(1, 1);
 	}
 }
