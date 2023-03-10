@@ -1,13 +1,16 @@
 package com.mm.app;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+public class DemoApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		assertEquals(1, 2);
 	}
 
 }
