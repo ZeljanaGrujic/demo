@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class UtilTests {
 
 	@Test
-	public void dummyTest() {
+	public void numberEqualsTest() {
 		assertEquals(1, 1);
 	}
 }
